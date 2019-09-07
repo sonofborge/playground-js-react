@@ -1,0 +1,9 @@
+# Ignore system files
+.DS_Store
+
+# Ignore IDEs and editors
+.idea/
+
+# Build version and Node modules
+dist/
+node_modules/
