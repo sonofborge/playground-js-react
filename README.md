@@ -23,7 +23,19 @@ and you will need to run the following command:
 
 ### The Docker Way
 
-(TODO: dockerize the app)
+This method requires that you have
+[Docker](https://docs.docker.com/)
+and
+[Docker Compose](https://docs.docker.com/compose/)
+installed on your system.
+
+1.  Run the following command to build and run the application.
+
+    ```sh
+    docker-compose up --build
+    ```
+
+1.  You should now be able to access the application at `localhost:3000`.
 
 ### The Local Way
 

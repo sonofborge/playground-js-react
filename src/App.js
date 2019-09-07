@@ -5,7 +5,7 @@ import { hot } from "react-hot-loader";
 import "./App.css";
 
 /**
- * The root component for the frontend application.
+ * The root component for the application.
  *
  * @extends Component
  */
