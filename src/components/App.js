@@ -1,8 +1,6 @@
 // Dependencies
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
-// Styles
-import "./App.css";
 
 /**
  * The root component for the application.
