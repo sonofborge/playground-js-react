@@ -1,20 +1,12 @@
 // Dependencies
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
+// Styles
+import "./App.css";
 
 /**
- * The root component for the application.
- *
- * @extends Component
+ * Application Root
  */
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello World</h1>
-      </div>
-    );
-  }
-}
+const App = () => <div className="container" />;
 
 export default hot(module)(App);
