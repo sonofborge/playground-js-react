@@ -53,7 +53,17 @@ Please check the `.nvmrc` file for the version of Node this project depends on.
 1.  Start the local web server.
 
     ```sh
-    npm run start
+    npm start
     ```
 
 1.  You should now be able to access the application at `localhost:3000`.
+
+## Testing
+
+This project uses Jest and Enzyme for testing.
+To run the tests,
+execute the following command:
+
+```sh
+npm test
+```
